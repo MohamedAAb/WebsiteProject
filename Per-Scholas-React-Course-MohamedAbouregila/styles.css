@@ -5,8 +5,15 @@ h1 {
 .big-heading {
   font-family: Verdana;
 }
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
 .section-heading {
+
+  font: Arial;
   /* Add your own font here */
 }
 
@@ -19,32 +26,96 @@ h1 {
 }
 
 .page {
+  margin: 0px;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 
 }
 
 .page__header {
   background-color: aqua;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  z-index: 11;
+  padding: 0px 00px;
+  width: 100%;
+  height: var(--nav-height);
+  backdrop-filter: blur(10px);
+  filter: none !important;
+  pointer-events: auto !important;
+  user-select: auto !important;
+
 
 }
 .page__content {
   background-color: beige;
+  display:flex;
+  flex-direction:column;
+  align-self:center;
+
+  width: 100%;
 
 }
 
 .left-content {
   background-color: burlywood;
+  position: fixed;
+  height: 71%;
+  bottom: 0px;
+  margin-top: auto;
+  margin-left: auto;
+
 
 }
 
 .right-content {
   background-color: burlywood;
+  height: 90%;
+  bottom: 0px;
+  z-index: 10;
+  margin-top: auto;
+  margin-left: auto;
 }
 
 .main-content {
+  background-color: grey;
+  padding: 150 150;
+
+  
+  
+
 
 }
 
 .main-content__section {
   background-color: cornsilk;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px;
 
+
+}
+
+ol li{
+  list-style-type: none;
+}
+.left_ocial{
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  list-style: none
 }

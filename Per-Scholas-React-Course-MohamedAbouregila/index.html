@@ -8,59 +8,156 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <!--Link to our stylesheet-->
     <link rel="stylesheet" type="text/css" href="./styles.css" />
-    <title>My test page</title>
+    <title>Mohamed Abouregila</title>
   </head>
 
   <body class="page">
-    <!--- PAGE HEADER WITH NAV BAR AND LOGO --->
-    <header class="page__header">
-      <nav class="nav">
-        <ol class="nav__list">
-          <li class="nav__list-item">About</li>
-          <li class="nav__list-item">Experience</li>
-        </ol>
-      </nav>
-    </header>
 
-    <!--The rest of the page-->
-    <div class="page__content">
 
-      <!---Left column (will be small sidebar)--->
-      <div class="left-content">
-        This will become the left column. You will put links to your Github, LinkedIn, etc here.
+
+
+    <div class="layout">
+
+
+      
+      <!--- PAGE HEADER WITH NAV BAR AND LOGO --->
+
+
+
+      <header class="page__header">
+        <nav class="nav">
+          <ol class="nav__list">
+
+            <li class="nav__list-item">
+              <a href="#about">About Me</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#experience">Experience</a>
+              
+            </li>
+          </ol>
+        </nav>
+      </header>
+
+
+
+
+        <!--The rest of the page-->
+        <div class="page__content">
+
+          <!---Left column (will be small sidebar)--->
+          <div orientation="left" class="left-content">
+
+            <ul class="left_ocial">
+              <li>
+                <a href="https://github.com/MohamedAAb" >
+                GitHub
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/mohamed-abouregila-bb7691113/" >
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
+              
+
+          </div>
+
+          <!---Center column (will be page hero and content sections) --->
+          <main class="main-content" style="background-color: grey;">
+            <section id="hero" class="main-content__section">
+              <div>
+                <div>
+                  <h1 class="big-heading">Mohamed Abouregila</h1>
+                  <h2>And what I do.</h2>
+                </div>
+                <p>I am Oracle Certified Java Developer. 
+                  <br>
+                  I have a wide and varied set of work experiences in different parts of the world. I have Knowlede, and experience with Spring Framework, Hibernate , and EclipseLink ORM Mapping tools in the backend, and HTML, Bootstrap, Jsf in the frontend I have experience and knowledge with SQl, and No-SQL databases like MySQL, SQL Server, MariaDB, MongoDb, and Apache Casendra</p>
+                  <br>
+                  <br>
+                  I worked on different projects include: <br>
+                  <b>Bills Tracker:</b> a project to help people pay and track thier personal bills
+                <div>
+                  <a href="mailto:mohammedmon3m@yahoo.com">Get in Touch</a>
+                </div>
+            </section>
+            <section id="about" class="main-content__section">
+              <h2 class="section-heading">
+                About Me
+              </h2>
+              <div class="fadeup-enter-done" style="transition-delay: 100ms;"><h1>Hi, my name is</h1></div>
+              <div class="fadeup-enter-done" style="transition-delay: 200ms;"><h2 class="big-heading">Mohamed Abouregila.</h2></div>
+                <br><br><br>
+                I am Oracle Certified Java Developer. I love coding, and I enjoy sloving complicated problems. <br>
+                I have 2 Bachelor degrees. The first one is in economics, and the second one is in Computer Information Systems
+                <br>
+                I have a wide and varied set of work experiences in different parts of the world. I worked as a Java Developer in Alexandria, Egypt, a journalist for a business newspaper in Alexandria, Egypt, an accountant for different
+                  companies in Dammam, Saudi Arabia, Brooklyn, NY, and Houston, TX, an analyst in the finance
+                  department for a service contractor at JFK airport, A software Development Engineer in Test in Nashvile, TN
+                </p>
+            </section>
+            <section id="experience" class="main-content__section">
+              <h2 class="section-heading">
+                Experience
+              </h2>
+              <div class="Exp">
+                <div class="ExpItem">
+                  <h3><span>Software Development Engineer in Test</span><span class="company">&emsp; &emsp;<a href="https://www.infosys.com/" class="inline-link" rel="noopener noreferrer" target="_blank">Infosys</a>, &emsp; Remote  </span></h3>
+                  <p class="range">March 2021 - Present</p>
+                  <div>
+                    <ul>
+                      <li>Use Selenium, and JUnit to conduct functional testing for the Company’s Web Applications.</li>
+                      <li>Use SoapUI, Groovy Script to test Web Services, SOAP, and WSDL.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="ExpItem">
+                  <h3><span>Analyst - Finance Department</span><span class="company">&emsp; &emsp;<a href="#" class="inline-link" rel="noopener noreferrer" target="_blank">Pax Assist</a>, &emsp; JFK Intl Airport, NY</span></h3>
+                  <p class="range">February 2020 - March 2020</p>
+                  <div>
+                    <ul>
+                      <li>Tested Financial Modules of PaxTool Software using Excel which increased data accuracy, and decreased reporting mistakes.</li>
+                      <li>Used Excel advanced functions to analyze discrepancies in more than 4000 data points per day, automating documents review process which significantly decreased documents review time by 95%.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="ExpItem">
+                  <h3><span>Analyst - Finance Department</span><span class="company">&emsp; &emsp;<a href="https://www.diverserecycling.com/" class="inline-link" rel="noopener noreferrer" target="_blank">Diverse Recycling Solutions</a>, &emsp; Brooklyn, NY</span></h3>
+                  <p class="range">February 2019 - November 2019</p>
+                  <div>
+                    <ul>
+                      <li>Extracted, and Analyzed Recycling Data from NYC Open Data APis</li>
+                      <li>Analyzed profit/loss per customer, as well as revenue per area, suggesting ways to boost profit</li>
+                      <li>Analyzed accounts payable/receivable using Excel/QuickBooks to optimize collections and payments.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="ExpItem">
+                  <h3><span>Analyst - Accounts Payable Department</span><span class="company">&emsp; &emsp;<a href="#" class="inline-link" rel="noopener noreferrer" target="_blank">M.M.AlHarbi Contractimg</a>, &emsp; Dammam, Saudi Arabia</span></h3>
+                  <p class="range">February 2020 - March 2020</p>
+                  <div>
+                    <ul>
+                      <li>Used SQL to create, and Customize Reports</li>
+                      <li>Analyzed cost of operations on monthly basis using MS Dynamics/Excel.</li>
+                      <li>Lowered accounts payable by 45,000 USD by analyzing discrepancies in invoices using Excel.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                
+              
+              </div>
+            </section>
+          </main>
+
+          <!---Right column (will be empty space)--->
+          <div orientation="right" class="right-content">
+          </div>
+        </div>
       </div>
-
-      <!---Center column (will be page hero and content sections) --->
-      <main class="main-content">
-        <section id="hero" class="main-content__section">
-          <div>
-            <div>
-              <h1 class="big-heading">My Name Here</h1>
-              <h2>And what I do.</h2>
-            </div>
-            <p>Here is where I will briefly describe myself.</p>
-            <div>
-              <a>Get in Touch</a>
-            </div>
-        </section>
-        <section id="about" class="main-content__section">
-          <h2 class="section-heading">
-            About Me
-          </h2>
-          <p>Here is where I talk more about myself.</p>
-        </section>
-        <section id="experience" class="main-content__section">
-          <h2 class="section-heading">
-            Experience
-          </h2>
-          <p>Here is where I talk about my experience.</p>
-        </section>
-      </main>
-
-      <!---Right column (will be empty space)--->
-      <div class="right-content">
-        This will become the right column. Leave this blank, or add something similar to the example website.
-      </div>
-    </div>
   </body>
 </html>
